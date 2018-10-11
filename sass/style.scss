@@ -1,11 +1,19 @@
 // EXAMPLE OF NESTING IN SCSS
+
+// Here we import SCSS Partials 
+
 @import '_variables';
 @import '_mixins';
 
-body {
-  background-color: $themeColor;
-  color: $headlineColor;
+// Here we import Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Niramit:400,400i,700,700i');
 
+// Here we import some regular CSS
+@import '_old-css';
+
+body {
+  color: $headlineColor;
+  font-family: 'Niramit';
   h1 {
     font-size: 100px;
     @include circle(250px, blue);

@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Niramit:400,400i,700,700i");
+/* Let's say we have some old CSS that we didnt have time to rewrite to SCSS */
 body {
-  background-color: #999;
+  background-color: #fce686;
+}
+
+body {
   color: #800080;
+  font-family: 'Niramit';
 }
 body h1 {
   font-size: 100px;
