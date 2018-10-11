@@ -1,5 +1,11 @@
+// EXAMPLE OF NESTING IN SCSS
+@import '_variables';
+
 body {
-    h1 {
-        color: red;
-    }
+  h1 {
+    font-size: 100px;
+    color: $headlineColor;
+  }
 }
+
+// EXAMPLE OF HOW TO USE VARIABLES IN SCSS ^
