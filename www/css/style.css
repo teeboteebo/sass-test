@@ -1,6 +1,27 @@
+body {
+  background-color: #999;
+  color: #800080;
+}
 body h1 {
   font-size: 100px;
-  color: #800080;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: blue;
+  padding: 25px;
+}
+
+ul {
+  background-color: #fff;
+}
+ul:hover {
+  background-color: #888;
+}
+ul li {
+  padding: 12px 0;
+}
+ul li.favorite {
+  background-color: green;
 }
 
 /*# sourceMappingURL=style.css.map */

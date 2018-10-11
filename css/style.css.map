@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,IAAK;EACH,gBAAgB,ECDL,IAAI;EDEf,OAAG;IACD,SAAS,EAAE,KAAK;IAChB,KAAK,ECLO,OAAO;EDOrB,MAAE;IACA,KAAK,ECRO,OAAO",
+"sources": ["../sass/style.scss","../sass/_variables.scss"],
+"names": [],
+"file": "style.css"
+}

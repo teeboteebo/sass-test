@@ -1,0 +1,29 @@
+// EXAMPLE OF NESTING IN SCSS
+@import '_variables';
+@import '_mixins';
+
+body {
+  background-color: $themeColor;
+  color: $headlineColor;
+
+  h1 {
+    font-size: 100px;
+    @include circle(250px, blue);
+    padding: 25px;
+  }
+}
+
+// EXAMPLE OF HOW TO USE VARIABLES IN SCSS ^
+
+ul {
+  background-color: #fff;
+  &:hover {
+    background-color: #888;
+  }
+  li {
+    padding: 12px 0;
+    &.favorite {
+      background-color: green;
+    }
+  }
+}

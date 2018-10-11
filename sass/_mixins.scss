@@ -1,0 +1,6 @@
+@mixin circle($size, $backgroundColor: #ddd){
+  height: $size;
+  width: $size;
+  border-radius: 50%;
+  background-color: $backgroundColor;
+}
