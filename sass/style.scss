@@ -18,6 +18,12 @@ body {
     font-size: 100px;
     @include circle(250px, blue);
     padding: 25px;
+    @media screen and (max-width: 900px){
+      color: green;
+    }
+    @media screen and (max-width: 600px){
+      color: olive;
+    }
   }
 }
 
